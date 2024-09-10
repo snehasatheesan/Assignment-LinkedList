@@ -7,9 +7,9 @@ import java.util.LinkedList;
 
 public class code1 {
     public static void main(String[] args) {
-        LinkedList<Integer> ll=new LinkedList<>();
-        ll.addAll(Arrays.asList(5,10,15,20,25));
-        System.out.println("The first element is: "+ll.getFirst());
-        System.out.println("The last element is: "+ll.getLast());
+        LinkedList<Integer> sc=new LinkedList<>();
+        sc.addAll(Arrays.asList(5,10,15,20,25));
+        System.out.println("The first element is: "+sc.getFirst());
+        System.out.println("The last element is: "+sc.getLast());
     }
 }
